@@ -162,3 +162,6 @@ cython_debug/
 # Repo-specific
 .env
 data/
+
+# ignore data persistence folder the Qdrant Docker container
+qdrant_storage
